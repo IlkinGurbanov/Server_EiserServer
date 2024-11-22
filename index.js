@@ -418,7 +418,7 @@ app.put("/API/basket/:id",(req,res)=>{
 
 
 const url = "mongodb+srv://adminstrator:<password>@projectdatabase.fkyl9ws.mongodb.net/?retryWrites=true&w=majority"
-const password = "adminstrator123"
+const password = "*******"
 const con_url = url.replace("<password>",password)
 
 mongoose.set('strictQuery', false);
